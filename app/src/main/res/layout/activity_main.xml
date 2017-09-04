@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="projetocadastro.projetocurso.com.cadastroprodutos.MainActivity"
-    tools:ignore="GradleDependency">
-
+    tools:context="cadprodutos.cursoapp.com.cadprodutos.MainActivity">
 
     <LinearLayout
         android:layout_width="368dp"
@@ -14,11 +12,21 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints,UselessLeaf">
+        tools:ignore="MissingConstraints"
+        android:weightSum="1">
 
         <ListView
-            android:id="@+id/listview_produtos"
+            android:id="@+id/listview_Produtos"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="417dp" />
+
+        <Button
+            android:id="@+id/btn_Cadastrar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:layout_weight="0.67" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cadprodutos.cursoapp.com.cadprodutos.FormularioProdutos">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <EditText
+            android:id="@+id/editText_NomeProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Inserir nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Descrição do Produto"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Quantidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantidade"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_Poliform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
